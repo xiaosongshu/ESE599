@@ -98,7 +98,7 @@ byte i2c_sensor_read_byte( int deviceaddress, int eeaddress ) {
   }
   
     // initialize initial char array
-    static String dataString = "enTemperatures stored: ";
+    static String dataString = "en";
     
   void loop() 
   {
@@ -108,11 +108,13 @@ byte i2c_sensor_read_byte( int deviceaddress, int eeaddress ) {
     signed char hi;
     float temperature;
 
-    Serial.print(' ');
-    while (addr<53) 
+    Serial.print("EEPROM: ");
+    while (addr<508) 
     {
       b = i2c_eeprom_read_byte(M24LR04, addr);
-      if(b == 0xFE)break;
+      if(b == 0xFE){
+        break;
+      }
       Serial.print((char)b);
       addr++;
     }
@@ -155,8 +157,8 @@ byte i2c_sensor_read_byte( int deviceaddress, int eeaddress ) {
     //Serial.print("temp = "); Serial.print(temp);
     Serial.println(" ");
     Serial.print("dataArray: ");
-    //Serial.print(dataArray);
+    Serial.print(dataArray);
     Serial.println(" ");
     // delay before restarting loop
-    delay(3000);
+    delay(1000);
   }
