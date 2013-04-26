@@ -1,0 +1,8 @@
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\bin\Debug\howto_ftp_upload_text.exe
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\bin\Debug\howto_ftp_upload_text.pdb
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.Form1.resources
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.Properties.Resources.resources
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.csproj.GenerateResource.Cache
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.exe
+C:\Users\Kevin\Desktop\howto_ftp_upload_text\howto_ftp_upload_text\obj\Debug\howto_ftp_upload_text.pdb
